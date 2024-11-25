@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Personagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="menu-fixo">
+        <h1>Dragon Ball Z</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria de Personagens</a></li>
+                <li><a href="episodios.html">Episódios Favoritos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-theme">Tema Claro/Escuro</button>
+    </header>
+    <main>
+        <section class="galeria">
+            <h2>Personagens Principais</h2>
+            <div class="personagem" onclick="abrirPersonagem('goku')">
+                <img src="imagens/goku.png" alt="Goku">
+                <h3>Goku</h3>
+                <p>O lendário Saiyajin protetor da Terra.</p>
+            </div>
+            <div class="personagem" onclick="abrirPersonagem('vegeta')">
+                <img src="imagens/vegeta.jpg" alt="Vegeta">
+                <h3>Vegeta</h3>
+                <p>O príncipe dos Saiyajins em busca de poder.</p>
+            </div>
+            <div class="personagem" onclick="abrirPersonagem('gohan')">
+                <img src="imagens/gohan.jpg" alt="Gohan">
+                <h3>Gohan</h3>
+                <p>O filho de Goku com um imenso potencial oculto.</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 Dragon Ball Z Fan Page. Todos os direitos reservados.</p>
+    <p> Desnvolvido por Felipe Baba</p>
+</footer>
+</html>
